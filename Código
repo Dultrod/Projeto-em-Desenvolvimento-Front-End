@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Programa</title>
+    <style>
+         body {
+            background-color: rgb(112, 175, 60);
+            color: aliceblue;
+            font: 20pt Arial;
+         }
+         h1{
+            color: rgb(14, 51, 35);
+         }
+    </style>
+</head>
+<body>
+   <h1> Olá, Mundo! </h1>
+   <p> Já me livrei da Maldição!</p>
+   <script>
+    window.alert('minha primeira mensagem!')//Apenas uma mensagem para o clientsize..
+    window.confirm('Está gostando de JS?')// vai fazer uma pergunta na qual o clientsize tem que responder 'OK'ou 'CANCEL'...
+    window.prompt ('Qual é o seu nome?')// Vai perguntar o Nome...
+
+   </script>
+</body>
+</html>
